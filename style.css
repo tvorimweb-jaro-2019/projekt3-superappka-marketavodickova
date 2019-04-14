@@ -31,3 +31,119 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.kontejner1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin:0px; 
+    padding:0px
+
+
+}
+.menu{
+    align-self: center;
+    padding: 20px;
+    list-style-type: none;
+    color: #25133d;
+    margin: 0px 15px 0px 15px;
+
+    
+}
+.menu:hover{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.grafika {
+    position: relative;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.pozadi{
+   width: 960px;
+   height: 460px;
+}
+.nadpis{
+    font-size: 90px;
+    position: absolute;
+    left: 40px;
+    top: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+.slogan{
+    position:absolute;
+    left: 40px;
+    top: 180px;
+    font-weight: none;
+    font-size: 30px;
+    width: 350px;   
+}
+.tlacitka{
+    position: absolute;
+    left: 40px;
+    top: 350px;
+    display: flex;
+    margin: 0;
+    padding:0px; 
+}
+.tlac{
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 15px 40px 15px 40px;
+    margin: 0px 20px 0px 0px;
+    list-style-type: none;
+    font-size: 20px
+}
+.tlac:hover{
+    background-color: #48418e;
+}
+
+.telefon{
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+    height: 380px;
+}
+
+.vyhody{
+    display: flex;}
+
+.okno{
+    margin: 20px;
+    
+}
+.logo{
+    width: 70px;
+    text-align: center;
+    margin: 10px 100px 10px 100px;
+/*Vím, že tohle není asi ideální způsob jak logo dostat doprostřed, ale text-align:center mi nešlo a position:absolute se mi zdálo
+moc komplikované*/
+}
+h2{
+    text-align: center;
+    color: #48418e;
+}
+.text{
+    text-align: center;
+    color: #25133d;
+}
+
+.zapati{
+    background-color:#48418e;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin: 0;
+}
+.copyright{
+    padding: 0;
+    margin: 0;
+}
+
+
